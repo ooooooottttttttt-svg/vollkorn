@@ -1,0 +1,68 @@
+@import url("reset.css");
+@import url("content.css");
+
+body {
+  background-color: #48301f;
+  font-family: "Vollkorn", serif;
+  color: #48301f;
+}
+
+/* страница фиксированной ширины 1512px (экран MacBook Pro 14), по центру */
+.page {
+  width: 1512px;
+  margin: 0 auto;
+}
+
+section {
+  position: relative;
+  width: 1512px;
+  overflow: hidden;
+}
+
+.section-1 { height: 908px; }
+.section-2 { height: 1171px; }
+.section-3 { height: 938px; }
+.section-4 { height: 1104px; }
+.section-5 { height: 1066px; }
+.section-6 { height: 1156px; }
+
+section img {
+  position: absolute;
+}
+
+/* положение картинок в секциях */
+.section-1 .shop { left: 0px; top: 0px; width: 1512px; height: 923.9px; }
+.section-2 .tablecloth { left: 0px; top: -0.24px; width: 1512px; height: 1444.45px; }
+.section-2 .napkin-dark { left: 373.02px; top: 424.37px; width: 908.98px; height: 891.38px; }
+.section-2 .napkin-orange { left: 768.05px; top: 647.27px; width: 731.13px; height: 671.86px; }
+.section-2 .napkin-green { left: 0px; top: 88.33px; width: 564.25px; height: 781.29px; }
+.section-2 .plate-right { left: 678.39px; top: 467.19px; width: 781.25px; height: 730.78px; }
+.section-2 .fork-dark { left: 1065.94px; top: 1048.06px; width: 446.06px; height: 86.27px; }
+.section-2 .plate-left { left: 56.83px; top: 53.83px; width: 777.17px; height: 775.42px; }
+.section-2 .fork-green { left: 962.11px; top: 350.64px; width: 549.89px; height: 345.05px; }
+.section-2 .fork-orange { left: 0px; top: 181.42px; width: 411.3px; height: 92.94px; }
+.section-3 .notebook { left: 0px; top: -0.52px; width: 1512px; height: 938.22px; }
+.section-3 .napkin-tip-orange { left: 797.88px; top: -0.52px; width: 686.81px; height: 147.85px; }
+.section-3 .napkin-tip-dark { left: 354.2px; top: -0.52px; width: 897.91px; height: 107.44px; }
+.section-3 .notebook-lines { left: 300.76px; top: 317.01px; width: 1019.18px; height: 505.33px; }
+.section-4 .bg-green { left: 0.03px; top: -0.3px; width: 1511.97px; height: 3275.16px; }
+.section-4 .bread-r { left: 118.89px; top: 397.28px; width: 331.01px; height: 343.02px; }
+.section-4 .scratches-r { left: 275.02px; top: 495.21px; width: 38.63px; height: 20.47px; }
+.section-4 .bread-d { left: 361.85px; top: 410.51px; width: 364.36px; height: 348.71px; }
+.section-4 .scratches-d { left: 518.15px; top: 517.71px; width: 50.64px; height: 99.89px; }
+.section-4 .bread-g { left: 615.91px; top: 355.19px; width: 474.77px; height: 505.61px; }
+.section-4 .scratches-g { left: 791.98px; top: 567.97px; width: 95.53px; height: 79.91px; }
+.section-4 .bread-m { left: 921.21px; top: 248.66px; width: 546.23px; height: 651.36px; }
+.section-4 .scratches-m { left: 1079.11px; top: 370.07px; width: 227.34px; height: 191.16px; }
+.section-4 .cream { left: 0.03px; top: 568.94px; width: 1487.27px; height: 992.14px; }
+.section-5 .bg-green { left: 0.03px; top: -1104.3px; width: 1511.97px; height: 3275.16px; }
+.section-5 .cream { left: 0.03px; top: -535.06px; width: 1487.27px; height: 992.14px; }
+.section-5 .piping-bag { left: 7.06px; top: 393.07px; width: 996.75px; height: 483.22px; }
+.section-5 .sleeve { left: 0.03px; top: 108.44px; width: 352.28px; height: 640.88px; }
+.section-5 .nozzle { left: 944.05px; top: 387.58px; width: 201.77px; height: 132.41px; }
+.section-5 .girl { left: 0.03px; top: 724.14px; width: 1511.97px; height: 1446.72px; }
+.section-5 .cupcakes { left: 0.03px; top: 937.2px; width: 715.14px; height: 128.39px; }
+.section-6 .bg-green { left: 0.03px; top: -2170.3px; width: 1511.97px; height: 3275.16px; }
+.section-6 .table-orange { left: 0.03px; top: -0.41px; width: 1511.97px; height: 1056.27px; }
+.section-6 .girl { left: 0.03px; top: -341.86px; width: 1511.97px; height: 1446.72px; }
+.section-6 .loaf { left: 0px; top: 983.77px; width: 1512px; height: 172.19px; }

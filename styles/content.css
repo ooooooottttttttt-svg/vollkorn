@@ -1,0 +1,461 @@
+/* весь текст: положение задаётся от базовой линии (::before) */
+.text {
+  position: absolute;
+  white-space: nowrap;
+  color: #48301f;
+}
+
+.text::before {
+  content: "";
+  display: inline-block;
+  height: var(--h);
+}
+
+.ring-text {
+  position: absolute;
+  font-family: "Vollkorn", serif;
+  font-weight: 800;
+  font-size: 61.5px;
+  fill: #48301f;
+}
+
+.sign {
+  left: 448.99px;
+  top: 91.59px;
+  font-size: 104.92px;
+  line-height: 104.92px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  width: 579.79px;
+  text-align: center;
+  padding-left: 0.04em;
+  box-sizing: border-box;
+  --h: 125.91px;
+}
+
+.open {
+  left: 1026.86px;
+  top: 492.47px;
+  font-size: 27.94px;
+  line-height: 27.94px;
+  font-weight: 500;
+  color: #f2e0be;
+  transform: rotate(-2.3deg);
+  transform-origin: 0 33.53px;
+  --h: 33.53px;
+}
+
+.plates1 {
+  left: 295.07px;
+  top: 369.08px;
+  font-size: 38.77px;
+  line-height: 38.77px;
+  font-weight: 700;
+  --h: 46.52px;
+}
+
+.plates2 {
+  left: 351.79px;
+  top: 401.91px;
+  font-size: 38.77px;
+  line-height: 38.77px;
+  font-weight: 700;
+  --h: 46.52px;
+}
+
+.symbols {
+  left: 508.58px;
+  top: 834.55px;
+  font-size: 38.77px;
+  line-height: 32.48px;
+  font-weight: 500;
+  color: #f2e0be;
+  --h: 46.52px;
+}
+
+.nb-title {
+  left: 297.41px;
+  top: 75.61px;
+  font-size: 105.41px;
+  line-height: 105.41px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  --h: 126.49px;
+}
+
+.nb-sub {
+  left: 297.34px;
+  top: 204.95px;
+  font-size: 38.66px;
+  line-height: 38.66px;
+  font-weight: 600;
+  --h: 46.4px;
+}
+
+.row1 {
+  left: 297.34px;
+  top: 268.38px;
+  font-size: 38.66px;
+  line-height: 38.66px;
+  --h: 46.4px;
+}
+
+.label1 {
+  left: 1209.95px;
+  top: 297.19px;
+  font-size: 14.39px;
+  line-height: 14.39px;
+  --h: 17.27px;
+}
+
+.row2 {
+  left: 297.34px;
+  top: 314.13px;
+  font-size: 38.66px;
+  line-height: 38.66px;
+  font-style: italic;
+  --h: 46.4px;
+}
+
+.label2 {
+  left: 1209.95px;
+  top: 343.99px;
+  font-size: 14.39px;
+  line-height: 14.39px;
+  font-style: italic;
+  --h: 17.27px;
+}
+
+.row3 {
+  left: 297.34px;
+  top: 359.88px;
+  font-size: 38.66px;
+  line-height: 38.66px;
+  font-weight: 500;
+  --h: 46.4px;
+}
+
+.label3 {
+  left: 1209.95px;
+  top: 388.42px;
+  font-size: 14.39px;
+  line-height: 14.39px;
+  font-weight: 500;
+  --h: 17.27px;
+}
+
+.row4 {
+  left: 297.34px;
+  top: 405.64px;
+  font-size: 38.66px;
+  line-height: 38.66px;
+  font-weight: 500;
+  font-style: italic;
+  --h: 46.4px;
+}
+
+.label4 {
+  left: 1209.95px;
+  top: 434.84px;
+  font-size: 14.39px;
+  line-height: 14.39px;
+  font-weight: 500;
+  font-style: italic;
+  --h: 17.27px;
+}
+
+.row5 {
+  left: 297.34px;
+  top: 451.39px;
+  font-size: 38.66px;
+  line-height: 38.66px;
+  font-weight: 600;
+  --h: 46.4px;
+}
+
+.label5 {
+  left: 1209.95px;
+  top: 482.34px;
+  font-size: 14.39px;
+  line-height: 14.39px;
+  font-weight: 600;
+  --h: 17.27px;
+}
+
+.row6 {
+  left: 297.34px;
+  top: 497.15px;
+  font-size: 38.66px;
+  line-height: 38.66px;
+  font-weight: 600;
+  font-style: italic;
+  --h: 46.4px;
+}
+
+.label6 {
+  left: 1209.95px;
+  top: 526.87px;
+  font-size: 14.39px;
+  line-height: 14.39px;
+  font-weight: 600;
+  font-style: italic;
+  --h: 17.27px;
+}
+
+.row7 {
+  left: 297.34px;
+  top: 542.9px;
+  font-size: 38.66px;
+  line-height: 38.66px;
+  font-weight: 700;
+  --h: 46.4px;
+}
+
+.label7 {
+  left: 1209.95px;
+  top: 571.65px;
+  font-size: 14.39px;
+  line-height: 14.39px;
+  font-weight: 700;
+  --h: 17.27px;
+}
+
+.row8 {
+  left: 297.34px;
+  top: 588.66px;
+  font-size: 38.66px;
+  line-height: 38.66px;
+  font-weight: 700;
+  font-style: italic;
+  --h: 46.4px;
+}
+
+.label8 {
+  left: 1209.95px;
+  top: 618.07px;
+  font-size: 14.39px;
+  line-height: 14.39px;
+  font-weight: 700;
+  font-style: italic;
+  --h: 17.27px;
+}
+
+.row9 {
+  left: 297.34px;
+  top: 634.41px;
+  font-size: 38.66px;
+  line-height: 38.66px;
+  font-weight: 800;
+  --h: 46.4px;
+}
+
+.label9 {
+  left: 1209.95px;
+  top: 663.75px;
+  font-size: 14.39px;
+  line-height: 14.39px;
+  font-weight: 800;
+  --h: 17.27px;
+}
+
+.row10 {
+  left: 297.34px;
+  top: 680.17px;
+  font-size: 38.66px;
+  line-height: 38.66px;
+  font-weight: 800;
+  font-style: italic;
+  --h: 46.4px;
+}
+
+.label10 {
+  left: 1209.95px;
+  top: 709.12px;
+  font-size: 14.39px;
+  line-height: 14.39px;
+  font-weight: 800;
+  font-style: italic;
+  --h: 17.27px;
+}
+
+.row11 {
+  left: 297.34px;
+  top: 725.92px;
+  font-size: 38.66px;
+  line-height: 38.66px;
+  font-weight: 900;
+  --h: 46.4px;
+}
+
+.label11 {
+  left: 1209.95px;
+  top: 755.09px;
+  font-size: 14.39px;
+  line-height: 14.39px;
+  font-weight: 900;
+  --h: 17.27px;
+}
+
+.row12 {
+  left: 297.34px;
+  top: 771.68px;
+  font-size: 38.66px;
+  line-height: 38.66px;
+  font-weight: 900;
+  font-style: italic;
+  --h: 46.4px;
+}
+
+.label12 {
+  left: 1209.95px;
+  top: 799.23px;
+  font-size: 14.39px;
+  line-height: 14.39px;
+  font-weight: 900;
+  font-style: italic;
+  --h: 17.27px;
+}
+
+.arch {
+  left: 151.17px;
+  top: 54.93px;
+  font-size: 104.92px;
+  line-height: 104.78px;
+  font-weight: 600;
+  color: #f2e0be;
+  --h: 125.91px;
+}
+
+.letter-r {
+  left: 234.43px;
+  top: 336.11px;
+  font-size: 211.9px;
+  line-height: 211.9px;
+  --h: 254.28px;
+}
+
+.letter-d {
+  left: 474.28px;
+  top: 368.52px;
+  font-size: 211.87px;
+  line-height: 211.87px;
+  --h: 254.24px;
+}
+
+.letter-g {
+  left: 769.52px;
+  top: 243.21px;
+  font-size: 281.55px;
+  line-height: 281.55px;
+  --h: 337.86px;
+}
+
+.letter-M {
+  left: 1058.12px;
+  top: 220.41px;
+  font-size: 286.02px;
+  line-height: 286.02px;
+  --h: 343.22px;
+}
+
+.lab-r {
+  left: 214.98px;
+  top: 585.79px;
+  font-size: 38.87px;
+  line-height: 38.87px;
+  font-weight: 600;
+  transform: rotate(0.8deg);
+  transform-origin: 0 46.65px;
+  --h: 46.65px;
+}
+
+.lab-d {
+  left: 453.15px;
+  top: 616.78px;
+  font-size: 38.84px;
+  line-height: 38.84px;
+  font-weight: 600;
+  transform: rotate(0.8deg);
+  transform-origin: 0 46.61px;
+  --h: 46.61px;
+}
+
+.lab-g {
+  left: 792.92px;
+  top: 641.66px;
+  font-size: 38.8px;
+  line-height: 38.8px;
+  font-weight: 600;
+  transform: rotate(0.8deg);
+  transform-origin: 0 46.56px;
+  --h: 46.56px;
+}
+
+.lab-M {
+  left: 1112.12px;
+  top: 562.62px;
+  font-size: 38.77px;
+  line-height: 38.77px;
+  font-weight: 600;
+  transform: rotate(0.8deg);
+  transform-origin: 0 46.52px;
+  --h: 46.52px;
+}
+
+.hist-title {
+  left: 208.17px;
+  top: 20.33px;
+  font-size: 104.92px;
+  line-height: 104.92px;
+  font-weight: 600;
+  color: #f2e0be;
+  --h: 125.91px;
+}
+
+.hist-text {
+  left: 315.92px;
+  top: 189.47px;
+  font-size: 38.45px;
+  line-height: 32.48px;
+  font-weight: 500;
+  color: #f2e0be;
+  --h: 46.15px;
+}
+
+.finale-text {
+  left: 112.22px;
+  top: 76.25px;
+  font-size: 38.45px;
+  line-height: 32.48px;
+  font-weight: 700;
+  --h: 46.15px;
+}
+
+.footer1 {
+  left: 45.13px;
+  top: 1040.62px;
+  font-size: 38.45px;
+  line-height: 29.34px;
+  font-weight: 700;
+  --h: 46.15px;
+}
+
+.footer2 {
+  left: 682.65px;
+  top: 1065.98px;
+  font-size: 38.45px;
+  line-height: 38.45px;
+  font-weight: 700;
+  --h: 46.15px;
+}
+
+.footer3 {
+  left: 1074.61px;
+  top: 1037.52px;
+  font-size: 38.45px;
+  line-height: 29.34px;
+  font-weight: 700;
+  --h: 46.15px;
+}
+
+.ring-text { left: 56.83px; top: 53.83px; }
